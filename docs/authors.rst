@@ -1,2 +1,2 @@
-.. _authors:
+.. _authors: 
 .. include:: ../AUTHORS.rst
