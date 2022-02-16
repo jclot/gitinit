@@ -4,7 +4,6 @@ from tkinter import ttk
 from tkinter import filedialog
 import git
 
-
 window_screen = Tk()
 tab_control = ttk.Notebook(window_screen)
 tab1 = ttk.Frame(tab_control)
@@ -65,7 +64,6 @@ def tab2_skeleton():
 def tab3_skeleton():
 
     welcome_screen_text_title = Label(tab3, text= " Tutorial: ", font    =("Arial Bold", 15, "bold"))
-
     welcome_screen_text_1 = Label(tab3, text= " - Choose the directoy you wan't to initialize as a repository on github. ")
     welcome_screen_text_2 = Label(tab3, text= " - Initialize the dirctory as a repo by pressing the button (start). ")
 
